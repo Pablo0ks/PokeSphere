@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="blue">#F61026B1</color>
-    <color name="yellow">#f3f221 </color>
-    <color name="green">#01992C</color>
-    <color name="red">#E91E63</color>
 
-    <!-- Colores para el modo claro -->
+<resources>
+    <!-- Colores para el modo oscuro -->
     <color name="colorPrimary">#BB86FC</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
@@ -15,6 +9,4 @@
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="textColorSecondary">#B0B0B0</color>
     <color name="buttonBackgroundColor">#BB86FC</color>
-
-
 </resources>

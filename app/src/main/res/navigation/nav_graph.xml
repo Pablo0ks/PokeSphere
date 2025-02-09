@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.pokesphere.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_noticeFragment"
+            app:destination="@id/noticeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticeFragment"
+        android:name="com.example.pokesphere.NoticeFragment"
+        android:label="fragment_notice"
+        tools:layout="@layout/fragment_notice" >
+        <action
+            android:id="@+id/action_noticeFragment_to_principalFragment"
+            app:destination="@id/principalFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_tab2NoticeFragment_to_loginFragment"
+        app:destination="@id/loginFragment" />
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.example.pokesphere.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principalFragment_to_detailFavoriteFragment2"
+            app:destination="@id/detailFavoriteFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFavoriteFragment2"
+        android:name="DetailFavoriteFragment"
+        android:label="DetailFavoriteFragment" >
+        <action
+            android:id="@+id/action_detailFavoriteFragment2_to_principalFragment"
+            app:destination="@id/principalFragment"
+            app:popUpTo="@id/principalFragment" />
+    </fragment>
+</navigation>
