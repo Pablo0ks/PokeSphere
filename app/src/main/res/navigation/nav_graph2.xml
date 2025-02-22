@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/favoriteFragment2"
+        android:name="com.example.pokesphere.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment2_to_detailFavoriteFragment"
+            app:destination="@id/detailFavoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment2"
+        android:name="com.example.pokesphere.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.pokesphere.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_detailPokemonFragment"
+            app:destination="@id/detailPokemonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPokemonFragment"
+        android:name="DetailPokemonFragment"
+        android:label="DetailPokemonFragment" >
+        <action
+            android:id="@+id/action_detailPokemonFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFavoriteFragment"
+        android:name="com.example.pokesphere.DetailFavoriteFragment"
+        android:label="fragment_detail_favorite"
+        tools:layout="@layout/fragment_detail_favorite" >
+        <action
+            android:id="@+id/action_detailFavoriteFragment_to_favoriteFragment2"
+            app:destination="@id/favoriteFragment2" />
+    </fragment>
+
+
+</navigation>

@@ -1,3 +1,63 @@
 <resources>
-    <string name="app_name">PokeSphere</string>
+    <string name="app_name">EjemploViewPager2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvNotice">Notificaciones de la APP</string>
+    <string name="tab1Text">Bienvenido a la APP</string>
+    <string name="tab2Text">Bienvenido al tab2</string>
+    <string name="btnMenu">Menú</string>
+    <string name="nombreDetFav">Nombre</string>
+    <string name="generacionDetFav">Generación</string>
+    <string name="etapaDetFav">Etapa Evolutiva</string>
+    <string name="tipoDetFav">Tipo</string>
+    <string name="comentarioDetFav">Escribe tu comentario aquí</string>
+    <string name="guardar_comentarioDetFav">Guardar Comentario</string>
+    <string name="comentariosDetFav">Comentarios:</string>
+    <string name="nombreDetPok">Nombre</string>
+    <string name="generacionDetPok">Generación</string>
+    <string name="etapaDetPok">Etapa Evolutiva</string>
+    <string name="tipoDetPok">Tipo</string>
+    <string name="bienvenido_a_pokesphereLog">¡Bienvenido a PokeSphere!</string>
+    <string name="usuarioLog">Usuario</string>
+    <string name="da_rienda_suelta_a_tu_imaginacionLog">Da rienda suelta a tu imaginacion</string>
+    <string name="nombrePok2">Nombre:</string>
+    <string name="generacionPok2">Generación:</string>
+    <string name="etapaPok2">Etapa Evolutiva:</string>
+    <string name="tipoPok2">Tipo:</string>
+
+    <!-- Nombres de Pokémon -->
+    <string name="pikachu">Pikachu</string>
+    <string name="charizard">Charizard</string>
+    <string name="bulbasaur">Bulbasaur</string>
+    <string name="squirtle">Squirtle</string>
+    <string name="lucario">Lucario</string>
+    <string name="gengar">Gengar</string>
+    <string name="gyarados">Gyarados</string>
+    <string name="eevee">Eevee</string>
+    <string name="tyranitar">Tyranitar</string>
+    <string name="rayquaza">Rayquaza</string>
+
+    <!-- Generaciones -->
+    <string name="primera_generacion">Primera Generación</string>
+    <string name="segunda_generacion">Segunda Generación</string>
+    <string name="tercera_generacion">Tercera Generación</string>
+    <string name="cuarta_generacion">Cuarta Generación</string>
+
+    <!-- Etapas de evolución -->
+    <string name="primera_etapa">Primera etapa</string>
+    <string name="segunda_etapa">Segunda etapa</string>
+    <string name="tercera_etapa">Tercera etapa</string>
+    <string name="legendario">Legendario</string>
+
+    <!-- Tipos de Pokémon -->
+    <string name="electrico">Eléctrico</string>
+    <string name="fuego_volador">Fuego/Volador</string>
+    <string name="planta_veneno">Planta/Veneno</string>
+    <string name="agua">Agua</string>
+    <string name="lucha_acero">Lucha/Acero</string>
+    <string name="fantasma_veneno">Fantasma/Veneno</string>
+    <string name="agua_volador">Agua/Volador</string>
+    <string name="normal">Normal</string>
+    <string name="roca_siniestro">Roca/Siniestro</string>
+    <string name="dragon_volador">Dragón/Volador</string>
 </resources>
