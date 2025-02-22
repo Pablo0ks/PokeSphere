@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Imagen del Pokémon -->
+    <ImageView
+        android:id="@+id/ivPokemon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/black"/>
+
+    <!-- Nombre del Pokémon -->
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Nombre:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/ivPokemon"
+        app:layout_constraintStart_toEndOf="@+id/ivPokemon"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Generación del Pokémon -->
+    <TextView
+        android:id="@+id/tvGeneracion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Generación:"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre"
+        app:layout_constraintStart_toEndOf="@+id/ivPokemon"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Etapa de evolución del Pokémon -->
+    <TextView
+        android:id="@+id/tvEtapaEvo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Etapa Evolutiva:"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGeneracion"
+        app:layout_constraintStart_toEndOf="@+id/ivPokemon"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Tipo del Pokémon -->
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Tipo:"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvEtapaEvo"
+        app:layout_constraintStart_toEndOf="@+id/ivPokemon"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Botón para agregar a favoritos -->
+    <Button
+        android:id="@+id/btnFavorito"
+        android:layout_width="71dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:text="❤️"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="@+id/tvNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvTipo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
